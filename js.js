@@ -22,12 +22,12 @@ function ChangeColor() {
     let x = root_container.children;
 
     if (document.body.classList.contains('dark-theme')) {
-        background.style.backgroundImage = 'url(../todo-app-main/images/bg-desktop-light.jpg)';
+        background.style.backgroundImage = 'url(./todo-app-main/images/bg-desktop-light.jpg)';
         sun.className = 'fa-solid fa-moon'
     }
     else {
         sun.className = 'fa-regular fa-sun'
-        background.style.backgroundImage = 'url(../todo-app-main/images/bg-desktop-dark.jpg)'
+        background.style.backgroundImage = 'url(./todo-app-main/images/bg-desktop-dark.jpg)'
     }
 }
 
